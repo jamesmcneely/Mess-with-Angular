@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="sneakyPete">
+<title>Angular Foolery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="styles/custom.css">
+
+<body>
+
+<div class="w3-topnav w3-large w3-green">
+  <a href="#stuff">Stuff</a>
+  <a href="#things">Things</a>
+  <a href="#">About</a>
+</div>
+
+<div class="w3-center">    
+  <div class="w3-row">
+    <div class="w3-col m1 w3-light-grey">
+    </div>
+    <div class="w3-col m8 w3-container">
+        <div ng-view>
+            This is where the view goes
+        </div>
+    </div>
+    <div class="w3-col m1 w3-light-grey w3-padding">
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="w3-container w3-green">
+  <h5>Footer</h5>
+  <p>Footer information goes here</p>
+</footer>
+    
+<script src="scripts/angular.js"></script>
+<script src="scripts/angular-route.js"></script>
+<script src="app/app.js"></script>
+<script src="app/services/displayFactory.js"></script>
+<script src="app/controllers/stuffController.js"></script>
+<script src="app/controllers/thingsController.js"></script>
+<script src="app/services/factory2.js"></script>
+
+
+    
+</body>
+</html> 

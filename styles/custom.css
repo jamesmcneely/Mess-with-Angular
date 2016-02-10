@@ -1,0 +1,17 @@
+/* Set the height of the grid so that left and right col can be 100% (adjust as needed) */
+.w3-row {height: 500px}
+    
+/* Set a 100% height to left and right col */
+.w3-col.m2, w3-col.m2 {height: 100%;}
+    
+/* On small screens, set grid height to 'auto' */
+@media screen and (max-width: 601px) {
+  .w3-row {height:auto;} 
+}
+
+.m1 {
+    width:5%;
+    color: red;
+    height:100%;
+    padding: 50px;
+}
