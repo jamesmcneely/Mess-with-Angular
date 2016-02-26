@@ -1,6 +1,6 @@
-var sneakyPete = angular.module('sneakyPete', ['ngRoute']);
+var jmDataSharing = angular.module('jmDataSharing', ['ngRoute']);
 
-sneakyPete.config(function($routeProvider){
+jmDataSharing.config(function($routeProvider){
     $routeProvider
         .when('/stuff', {
             controller: 'StuffController',

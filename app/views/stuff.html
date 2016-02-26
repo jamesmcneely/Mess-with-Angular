@@ -1,11 +1,14 @@
 <h1>What had Happened Was</h1>
 <br />
 <br />
-<input type="text" ng-model="working" />
+
+<input type="text" ng-model="saySomething" ng-change="ctl()"/>
+
 <br />
-{{ working }}
+
+{{ saySomething }}
 
 <br />
 <br />
-
-<button type="button" ng-click="doubleCheck()">Say It</button>
+<!-- button no longer necessary now that saving data is bound to ng-change
+<button type="button" ng-click="saveData()">Say It</button>
